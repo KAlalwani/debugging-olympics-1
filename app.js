@@ -21,7 +21,7 @@ function showQuestion() {
 }
 
 function checkAnswer() {
-  let answer = answerInput.value.trim();
+  let answer = answerInput.value;
 
   if (answer === "") {
     messageDisplay.textContent = "Please enter an answer.";
