@@ -41,4 +41,4 @@ Each bug is worth 5 points. In total there are 7 bugs in this code. Bonuses are 
 
 ## Contrains
 
-You will have 45 minutes to finish the exercise. Once you are finished push the code to github (only 1 person in the group to submit). 
+You will have 20 minutes to finish the exercise. Once you are finished push the code to github (only 1 person in the group to submit). 
