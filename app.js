@@ -29,7 +29,7 @@ function checkAnswer() {
   }
 
   if (answer = questions[currentQuestion].answer) {
-    score =+ 1;
+    scoreDisplay.textContent =+ 1;
     messageDisplay.textContent = "Correct!";
   } else {
     messageDisplay.textContent = "Incorrect!";
