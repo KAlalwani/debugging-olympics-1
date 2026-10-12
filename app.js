@@ -29,6 +29,9 @@ function checkAnswer() {
   }
 
   if (answer === questions[currentQuestion].answer) {
+    setTimeout(() => {
+console.log('Correct! ');
+}, 2000);
     scoreDisplay.textContent = Number(scoreDisplay.textContent)+ 1;
     messageDisplay.textContent = "Correct!";
   } else {
