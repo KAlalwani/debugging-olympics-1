@@ -29,11 +29,13 @@ function checkAnswer() {
   }
 
   if (answer === questions[currentQuestion].answer) {
-    scoreDisplay.textContent += 1;
+    scoreDisplay.textContent = Number(scoreDisplay.textContent)+ 1;
     messageDisplay.textContent = "Correct!";
   } else {
-    messageDisplay.textContent = "Incorrect!";
+    messageDisplay.textContent = "Incorrect!"+'\n The correct anwser is: '+questions[currentQuestion].answer;
+
   }
+  
 
   scoreDisplay.textcontent = score;
   currentQuestion += 1;
