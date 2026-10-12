@@ -28,8 +28,8 @@ function checkAnswer() {
     return;
   }
 
-  if (answer = questions[currentQuestion].answer) {
-    scoreDisplay.textContent =+ 1;
+  if (answer === questions[currentQuestion].answer) {
+    scoreDisplay.textContent += 1;
     messageDisplay.textContent = "Correct!";
   } else {
     messageDisplay.textContent = "Incorrect!";
